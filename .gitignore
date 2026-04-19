@@ -68,3 +68,4 @@ logs/
 
 # CSV/Data (Keep the main ones needed for training, ignore temporary ones)
 excel_dump.csv
+*.apk
