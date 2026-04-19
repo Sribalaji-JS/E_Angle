@@ -1,0 +1,36 @@
+# Handle line endings automatically for files detected as text 
+# and leave binary files untouched
+* text=auto
+
+# Explicitly declare text files you want to always be normalized 
+# and converted to native line endings on checkout.
+*.dart text
+*.py text
+*.html text
+*.css text
+*.js text
+*.json text
+*.md text
+*.yaml text
+*.xml text
+*.gradle text
+*.plist text
+
+# Declare files that will always have CRLF line endings on checkout.
+*.sln text eol=crlf
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.pdf binary
+*.jar binary
+*.zip binary
+*.7z binary
+*.xlsx binary
+*.csv binary
+*.pkl binary

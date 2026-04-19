@@ -1,0 +1,70 @@
+# Misc
+.DS_Store
+.flaskenv
+.env
+.venv
+env/
+env2/
+venv/
+ENV/
+*.pyc
+__pycache__/
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.framework
+ios/ServiceDefinitions.json
+lib/generated_plugin_registrant.dart
+android/key.properties
+android/app/src/main/res/raw/
+android/app/src/main/res/values/strings.xml
+android/app/src/main/assets/
+android/app/src/main/jniLibs/
+android/app/src/main/libs/
+android/app/src/main/res/drawable-*
+android/app/src/main/res/mipmap-*
+android/app/src/main/res/xml/
+android/app/src/main/res/values-v21/
+android/app/src/main/res/values-v24/
+android/app/src/main/res/values-night/
+android/app/src/main/res/values-night-v8/
+android/app/src/main/res/values-round/
+android/app/src/main/res/values-v21/
+android/app/src/main/res/values-v24/
+android/app/src/main/res/values-v26/
+android/app/src/main/res/values-v27/
+android/app/src/main/res/values-v28/
+android/app/src/main/res/values-v31/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+
+# ML Models
+models/*.pkl
+models/*.h5
+models/*.joblib
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# Logs
+logs/
+*.log
+
+# CSV/Data (Keep the main ones needed for training, ignore temporary ones)
+excel_dump.csv
