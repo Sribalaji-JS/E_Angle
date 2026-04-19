@@ -4,7 +4,8 @@ import '../models/models.dart';
 
 class ApiService {
   // Change this to your machine's IP when testing on a real Android device
-  static const String _baseUrl = 'http://10.0.2.2:8080/api';
+  // Live Render backend URL
+  static const String _baseUrl = 'https://e-angle.onrender.com/api';
 
   static Future<RecommendationResult> recommend({
     required double targetCapacity,
