@@ -2,6 +2,7 @@ package com.example.demo.service;
 
 import com.example.demo.model.AiPrediction;
 import com.example.demo.model.AngleData;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -12,7 +13,9 @@ import java.util.Map;
 public class AiClient {
 
     private final RestTemplate restTemplate = new RestTemplate();
-    private final String AI_URL = "http://localhost:5000/predict";
+
+    @Value("${ai.server.url:http://localhost:5000/predict}")
+    private String AI_URL;
 
     public AiPrediction predict(AngleData data) {
         Map<String, Object> request = new HashMap<>();
